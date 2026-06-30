@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>高分咖啡的产地、风味与价格线索</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#hero">咖啡风味图谱</a>
+      <nav aria-label="页面导航">
+        <a href="#origin">产地</a>
+        <a href="#rating">评分</a>
+        <a href="#cupping">杯测</a>
+        <a href="#flavor">风味</a>
+        <a href="#price">价格</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Coffee Review Data · 2017-2022</p>
+        <h1>高分咖啡的产地、风味与价格线索</h1>
+        <p class="hero-copy">从 1245 条咖啡测评出发，观察高分样本背后的来源、口味描述与价格区间。</p>
+        <div class="stat-strip" aria-label="数据概览">
+          <div>
+            <span id="statSamples">--</span>
+            <small>测评样本</small>
+          </div>
+          <div>
+            <span id="statCountries">--</span>
+            <small>产地来源</small>
+          </div>
+          <div>
+            <span id="statHigh">--</span>
+            <small>94+ 样本</small>
+          </div>
+          <div>
+            <span id="statPrice">--</span>
+            <small>价格中位数</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section intro">
+        <div class="note-grid" id="regionNotes"></div>
+        <div class="definition-panel">
+          <strong>高分阈值</strong>
+          <span>
+            原始评分来自
+            <a href="https://www.coffeereview.com/review/" target="_blank" rel="noreferrer">Coffee Review</a>
+            的咖啡测评页面，清洗数据来自
+            <a href="https://www.kaggle.com/datasets/hanifalirsyad/coffee-scrap-coffeereview/versions/2" target="_blank" rel="noreferrer">Kaggle Coffee Scrap CoffeeReview</a>。
+            在当前 1245 条样本中，93+ 覆盖 946 条，范围偏宽；95+ 只有 231 条，样本偏少；94+ 有 587 条，占 47.15%。因此，后文把 94 分及以上记作高分样本。
+          </span>
+        </div>
+      </section>
+
+      <section class="section" id="origin">
+        <div class="section-head">
+          <p class="eyebrow">产地星座图</p>
+          <h2>高分样本集中在哪些来源？</h2>
+        </div>
+        <p class="chart-note origin-chart-note">越靠右平均分越高，越靠上高分样本越集中；气泡越大样本量越多，颜色越深价格中位数越高。</p>
+        <div class="viz-panel overview-panel origin-constellation">
+          <svg id="overviewChart" role="img" aria-label="产地星座图"></svg>
+        </div>
+      </section>
+
+      <section class="section" id="rating">
+        <div class="section-head">
+          <p class="eyebrow">指标说明</p>
+          <h2>先读懂四个指标，再看排序如何变化</h2>
+        </div>
+        <div class="metric-explain">
+          <div><strong>平均分</strong><span>横轴指标，越靠右说明整体评分越高。</span></div>
+          <div><strong>94+ 占比</strong><span>纵轴指标，越靠上说明高分样本越集中。</span></div>
+          <div><strong>样本量</strong><span>气泡大小，越大说明比较结果更稳定。</span></div>
+          <div><strong>价格中位数</strong><span>颜色深浅，越深说明价格中位数越高。</span></div>
+        </div>
+
+        <div class="section-head split">
+          <div>
+            <p class="eyebrow">指标排行</p>
+            <h2>单独看某个指标，排序会发生变化</h2>
+          </div>
+          <div class="segmented" aria-label="排行指标">
+            <button class="active" data-sort="avg_rating">平均分</button>
+            <button data-sort="share_94plus">94+ 占比</button>
+            <button data-sort="sample_size">样本量</button>
+            <button data-sort="median_price_100g_usd">价格中位数</button>
+          </div>
+        </div>
+        <div class="viz-panel">
+          <svg id="rankingChart" role="img" aria-label="产地排行图"></svg>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <p class="eyebrow">评分分布</p>
+          <h2>五个重点产地的评分分布</h2>
+        </div>
+        <div class="viz-panel">
+          <svg id="distributionChart" role="img" aria-label="重点产地评分分布图"></svg>
+        </div>
+      </section>
+
+      <section class="section" id="cupping">
+        <div class="section-head">
+          <p class="eyebrow">杯测分项</p>
+          <h2>高分咖啡高在哪里？</h2>
+        </div>
+        <div class="viz-panel">
+          <svg id="cuppingChart" role="img" aria-label="评分分段与杯测分项热力图"></svg>
+        </div>
+        <p class="chart-note">格子里的数值是该评分段内对应杯测分项的平均分。例如 92 及以下样本的香气均值为 8.52；从匹配样本看，95+ 与低分段拉开差距更明显的是余韵、酸度和醇厚度。</p>
+      </section>
+
+      <section class="section" id="flavor">
+        <div class="section-head">
+          <p class="eyebrow">高分风味信号</p>
+          <h2>哪些风味更常出现在高分咖啡中？</h2>
+        </div>
+        <div class="viz-panel">
+          <svg id="flavorChart" role="img" aria-label="高分与非高分风味关键词对比图"></svg>
+        </div>
+        <div id="flavorExamples" class="flavor-examples"></div>
+      </section>
+
+      <section class="section flavor-origin">
+        <div class="section-head">
+          <p class="eyebrow">产地风味画像</p>
+          <h2>五个重点产地的风味画像</h2>
+        </div>
+        <div class="viz-panel">
+          <svg id="originFlavorChart" role="img" aria-label="五个重点产地风味关键词热力图"></svg>
+        </div>
+        <p class="chart-note">同样是高分咖啡，不同产地的评论关键词仍有差异。这里展示五个重点产地在六类关键词上的出现率，作为前一张图的补充。</p>
+      </section>
+
+      <section class="section" id="price">
+        <div class="section-head split">
+          <div>
+            <p class="eyebrow">价格关系</p>
+            <h2>高分是否一定更贵？</h2>
+          </div>
+          <label class="toggle">
+            <input type="checkbox" id="showOutliers" />
+            <span>显示高价异常样本</span>
+          </label>
+        </div>
+        <div class="viz-panel canvas-panel">
+          <canvas id="priceChart" aria-label="价格区间与高分占比阶梯图"></canvas>
+        </div>
+      </section>
+
+      <section class="section notes">
+        <div class="section-head">
+          <p class="eyebrow">数据结论</p>
+          <h2>几个更值得带走的发现</h2>
+        </div>
+        <div class="conclusion-grid">
+          <article>
+            <strong>巴拿马的高分密度最突出</strong>
+            <span>样本量达到 70 条时，巴拿马 94+ 占比仍有 85.7%，明显高于其他主排名来源。</span>
+          </article>
+          <article>
+            <strong>高分差距更集中在余韵与酸度</strong>
+            <span>95+ 样本相比 92 分及以下样本，余韵均值高 1.14，酸度高 0.99，醇厚度高 0.85。</span>
+          </article>
+          <article>
+            <strong>花香、浆果和柑橘更靠近高分组</strong>
+            <span>在 94+ 样本中，花香出现率为 79.6%，浆果为 34.9%，柑橘为 45.7%，都高于非高分组。</span>
+          </article>
+          <article>
+            <strong>价格段升高，高分占比同步抬升</strong>
+            <span>$0-5 区间 94+ 占比为 32.8%，$20-30 区间升至 81.3%，但 $30-50 样本只有 35 条。</span>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div id="tooltip" class="tooltip" hidden></div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

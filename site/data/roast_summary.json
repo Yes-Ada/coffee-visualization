@@ -1,0 +1,30 @@
+[
+  {
+    "roast": "Medium-Light",
+    "sample_size": 882,
+    "avg_rating": 93.37,
+    "count_94plus": 412,
+    "share_94plus": 0.4671
+  },
+  {
+    "roast": "Light",
+    "sample_size": 195,
+    "avg_rating": 93.56,
+    "count_94plus": 118,
+    "share_94plus": 0.6051
+  },
+  {
+    "roast": "Medium",
+    "sample_size": 110,
+    "avg_rating": 92.54,
+    "count_94plus": 31,
+    "share_94plus": 0.2818
+  },
+  {
+    "roast": "Medium-Dark",
+    "sample_size": 14,
+    "avg_rating": 92.36,
+    "count_94plus": 6,
+    "share_94plus": 0.4286
+  }
+]

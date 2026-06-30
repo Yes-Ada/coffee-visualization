@@ -1,0 +1,154 @@
+[
+  {
+    "score_band": "92及以下",
+    "band_order": 0,
+    "sample_size": 289,
+    "avg_rating": 91.31,
+    "components": [
+      {
+        "component": "aroma",
+        "component_cn": "香气",
+        "avg_score": 8.52,
+        "delta_from_low_band": 0.0
+      },
+      {
+        "component": "acid",
+        "component_cn": "酸度",
+        "avg_score": 8.0,
+        "delta_from_low_band": 0.0
+      },
+      {
+        "component": "body",
+        "component_cn": "醇厚度",
+        "avg_score": 8.15,
+        "delta_from_low_band": 0.0
+      },
+      {
+        "component": "flavor",
+        "component_cn": "风味",
+        "avg_score": 8.8,
+        "delta_from_low_band": 0.0
+      },
+      {
+        "component": "aftertaste",
+        "component_cn": "余韵",
+        "avg_score": 7.82,
+        "delta_from_low_band": 0.0
+      }
+    ]
+  },
+  {
+    "score_band": "93",
+    "band_order": 1,
+    "sample_size": 350,
+    "avg_rating": 93.0,
+    "components": [
+      {
+        "component": "aroma",
+        "component_cn": "香气",
+        "avg_score": 8.97,
+        "delta_from_low_band": 0.45
+      },
+      {
+        "component": "acid",
+        "component_cn": "酸度",
+        "avg_score": 8.41,
+        "delta_from_low_band": 0.41
+      },
+      {
+        "component": "body",
+        "component_cn": "醇厚度",
+        "avg_score": 8.57,
+        "delta_from_low_band": 0.42
+      },
+      {
+        "component": "flavor",
+        "component_cn": "风味",
+        "avg_score": 9.0,
+        "delta_from_low_band": 0.2
+      },
+      {
+        "component": "aftertaste",
+        "component_cn": "余韵",
+        "avg_score": 8.01,
+        "delta_from_low_band": 0.19
+      }
+    ]
+  },
+  {
+    "score_band": "94",
+    "band_order": 2,
+    "sample_size": 351,
+    "avg_rating": 94.0,
+    "components": [
+      {
+        "component": "aroma",
+        "component_cn": "香气",
+        "avg_score": 9.0,
+        "delta_from_low_band": 0.48
+      },
+      {
+        "component": "acid",
+        "component_cn": "酸度",
+        "avg_score": 8.96,
+        "delta_from_low_band": 0.96
+      },
+      {
+        "component": "body",
+        "component_cn": "醇厚度",
+        "avg_score": 8.95,
+        "delta_from_low_band": 0.8
+      },
+      {
+        "component": "flavor",
+        "component_cn": "风味",
+        "avg_score": 9.01,
+        "delta_from_low_band": 0.21
+      },
+      {
+        "component": "aftertaste",
+        "component_cn": "余韵",
+        "avg_score": 8.09,
+        "delta_from_low_band": 0.27
+      }
+    ]
+  },
+  {
+    "score_band": "95+",
+    "band_order": 3,
+    "sample_size": 226,
+    "avg_rating": 95.27,
+    "components": [
+      {
+        "component": "aroma",
+        "component_cn": "香气",
+        "avg_score": 9.06,
+        "delta_from_low_band": 0.54
+      },
+      {
+        "component": "acid",
+        "component_cn": "酸度",
+        "avg_score": 8.99,
+        "delta_from_low_band": 0.99
+      },
+      {
+        "component": "body",
+        "component_cn": "醇厚度",
+        "avg_score": 9.0,
+        "delta_from_low_band": 0.85
+      },
+      {
+        "component": "flavor",
+        "component_cn": "风味",
+        "avg_score": 9.24,
+        "delta_from_low_band": 0.44
+      },
+      {
+        "component": "aftertaste",
+        "component_cn": "余韵",
+        "avg_score": 8.96,
+        "delta_from_low_band": 1.14
+      }
+    ]
+  }
+]

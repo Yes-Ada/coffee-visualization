@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+
+# Raw and intermediate data
+原始数据/
+原始数据.zip
+*.csv
+*.zip
+
+# Generated exploration images kept locally
+*.png
+*.jpg
+*.jpeg
+
+# Keep website assets tracked
+!site/assets/*.png
+!site/assets/*.jpg
+!site/assets/*.jpeg
+!site/data/*.json
+!site/data/*.md

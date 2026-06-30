@@ -1,0 +1,305 @@
+[
+  {
+    "flavor_tag": "花香",
+    "flavor_order": 0,
+    "high_sample_total": 587,
+    "non_high_sample_total": 658,
+    "high_hits": 467,
+    "non_high_hits": 469,
+    "high_ratio": 0.7956,
+    "non_high_ratio": 0.7128,
+    "difference": 0.0828,
+    "lift": 1.12,
+    "examples": [
+      {
+        "name": "100% Kona SL-28",
+        "rating": 97,
+        "origin_display_cn": "美国夏威夷",
+        "origin_country_cn": "美国",
+        "matched_keywords": [
+          "jasmine"
+        ]
+      },
+      {
+        "name": "Ardent Ethiopia Natural",
+        "rating": 97,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "flowers",
+          "floral",
+          "hibiscus"
+        ]
+      },
+      {
+        "name": "Colombia Finca El Paraiso Geisha Letty",
+        "rating": 97,
+        "origin_display_cn": "哥伦比亚",
+        "origin_country_cn": "哥伦比亚",
+        "matched_keywords": [
+          "floral"
+        ]
+      },
+      {
+        "name": "Ethiopia Natural Guji D Minor Special Lot",
+        "rating": 97,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "lilac"
+        ]
+      }
+    ]
+  },
+  {
+    "flavor_tag": "浆果",
+    "flavor_order": 2,
+    "high_sample_total": 587,
+    "non_high_sample_total": 658,
+    "high_hits": 205,
+    "non_high_hits": 180,
+    "high_ratio": 0.3492,
+    "non_high_ratio": 0.2736,
+    "difference": 0.0757,
+    "lift": 1.28,
+    "examples": [
+      {
+        "name": "Rukera Espresso",
+        "rating": 97,
+        "origin_display_cn": "肯尼亚",
+        "origin_country_cn": "肯尼亚",
+        "matched_keywords": [
+          "currant"
+        ]
+      },
+      {
+        "name": "Colombia Cauca El Paraiso",
+        "rating": 96,
+        "origin_display_cn": "哥伦比亚",
+        "origin_country_cn": "哥伦比亚",
+        "matched_keywords": [
+          "strawberry"
+        ]
+      },
+      {
+        "name": "Colombia Sidra Natural Signature Selection",
+        "rating": 96,
+        "origin_display_cn": "哥伦比亚",
+        "origin_country_cn": "哥伦比亚",
+        "matched_keywords": [
+          "cherry"
+        ]
+      },
+      {
+        "name": "Ethiopia Aphrodite Washed Espresso",
+        "rating": 96,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "cherry"
+        ]
+      }
+    ]
+  },
+  {
+    "flavor_tag": "柑橘",
+    "flavor_order": 1,
+    "high_sample_total": 587,
+    "non_high_sample_total": 658,
+    "high_hits": 268,
+    "non_high_hits": 255,
+    "high_ratio": 0.4566,
+    "non_high_ratio": 0.3875,
+    "difference": 0.069,
+    "lift": 1.18,
+    "examples": [
+      {
+        "name": "100% Kona SL-28",
+        "rating": 97,
+        "origin_display_cn": "美国夏威夷",
+        "origin_country_cn": "美国",
+        "matched_keywords": [
+          "lemon"
+        ]
+      },
+      {
+        "name": "Ardent Ethiopia Natural",
+        "rating": 97,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "bergamot"
+        ]
+      },
+      {
+        "name": "Colombia Finca El Paraiso Geisha Letty",
+        "rating": 97,
+        "origin_display_cn": "哥伦比亚",
+        "origin_country_cn": "哥伦比亚",
+        "matched_keywords": [
+          "citrus"
+        ]
+      },
+      {
+        "name": "Ethiopia Natural Guji D Minor Special Lot",
+        "rating": 97,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "lemon"
+        ]
+      }
+    ]
+  },
+  {
+    "flavor_tag": "热带水果",
+    "flavor_order": 3,
+    "high_sample_total": 587,
+    "non_high_sample_total": 658,
+    "high_hits": 219,
+    "non_high_hits": 229,
+    "high_ratio": 0.3731,
+    "non_high_ratio": 0.348,
+    "difference": 0.0251,
+    "lift": 1.07,
+    "examples": [
+      {
+        "name": "100% Kona SL-28",
+        "rating": 97,
+        "origin_display_cn": "美国夏威夷",
+        "origin_country_cn": "美国",
+        "matched_keywords": [
+          "guava"
+        ]
+      },
+      {
+        "name": "Ardent Ethiopia Natural",
+        "rating": 97,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "lychee"
+        ]
+      },
+      {
+        "name": "Ethiopia Natural Guji D Minor Special Lot",
+        "rating": 97,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "passion"
+        ]
+      },
+      {
+        "name": "Mama Cata Mokkita",
+        "rating": 97,
+        "origin_display_cn": "巴拿马",
+        "origin_country_cn": "巴拿马",
+        "matched_keywords": [
+          "pineapple"
+        ]
+      }
+    ]
+  },
+  {
+    "flavor_tag": "巧克力可可",
+    "flavor_order": 4,
+    "high_sample_total": 587,
+    "non_high_sample_total": 658,
+    "high_hits": 453,
+    "non_high_hits": 508,
+    "high_ratio": 0.7717,
+    "non_high_ratio": 0.772,
+    "difference": -0.0003,
+    "lift": 1.0,
+    "examples": [
+      {
+        "name": "Ethiopia Natural Guji D Minor Special Lot",
+        "rating": 97,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "cocoa"
+        ]
+      },
+      {
+        "name": "Kenya Karindundu AA Small Lot Reserve",
+        "rating": 97,
+        "origin_display_cn": "肯尼亚",
+        "origin_country_cn": "肯尼亚",
+        "matched_keywords": [
+          "chocolate"
+        ]
+      },
+      {
+        "name": "Mama Cata Mokkita",
+        "rating": 97,
+        "origin_display_cn": "巴拿马",
+        "origin_country_cn": "巴拿马",
+        "matched_keywords": [
+          "chocolate"
+        ]
+      },
+      {
+        "name": "Panama Ninety Plus Perci Lot 50",
+        "rating": 97,
+        "origin_display_cn": "巴拿马",
+        "origin_country_cn": "巴拿马",
+        "matched_keywords": [
+          "chocolate",
+          "cocoa"
+        ]
+      }
+    ]
+  },
+  {
+    "flavor_tag": "坚果",
+    "flavor_order": 5,
+    "high_sample_total": 587,
+    "non_high_sample_total": 658,
+    "high_hits": 198,
+    "non_high_hits": 318,
+    "high_ratio": 0.3373,
+    "non_high_ratio": 0.4833,
+    "difference": -0.146,
+    "lift": 0.7,
+    "examples": [
+      {
+        "name": "100% Kona SL-28",
+        "rating": 97,
+        "origin_display_cn": "美国夏威夷",
+        "origin_country_cn": "美国",
+        "matched_keywords": [
+          "pistachio"
+        ]
+      },
+      {
+        "name": "Colombia Finca El Paraiso Geisha Letty",
+        "rating": 97,
+        "origin_display_cn": "哥伦比亚",
+        "origin_country_cn": "哥伦比亚",
+        "matched_keywords": [
+          "pistachio"
+        ]
+      },
+      {
+        "name": "Ethiopia Natural Guji D Minor Special Lot",
+        "rating": 97,
+        "origin_display_cn": "埃塞俄比亚",
+        "origin_country_cn": "埃塞俄比亚",
+        "matched_keywords": [
+          "almond"
+        ]
+      },
+      {
+        "name": "Mama Cata Mokkita",
+        "rating": 97,
+        "origin_display_cn": "巴拿马",
+        "origin_country_cn": "巴拿马",
+        "matched_keywords": [
+          "pistachio"
+        ]
+      }
+    ]
+  }
+]
